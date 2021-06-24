@@ -1,0 +1,76 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container
+{
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    
+    width: 350px;  
+    padding: 20px;
+    border: 1px solid rgb(142, 142, 245);
+}
+
+form
+{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+input
+{
+    width: 304px;
+    padding: 5px;
+    border: 2px solid rgb(142, 142, 245);
+   
+}
+
+input:focus
+{
+    transition: .3s ease-in-out;
+    padding: 5px 5px 5px 15px;
+    outline: none;
+}
+.hours
+{
+    font-size: 15px;
+    margin-left: 4%;
+}
+p
+{
+    margin: 12px;
+    padding: 7px;
+    background-color: rgb(142, 142, 245);
+    font-size: 15px;
+}
+button
+{
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(142, 142, 245);
+
+}
+
+.list
+{
+    padding: 40px;
+    display: flex;
+    
+}
+
+.span
+{
+    text-align: center;
+    border: 1px solid rgb(142, 142, 245);
+    padding: 5px;
+}
+span
+{
+    color: rgb(59, 59, 247);
+}

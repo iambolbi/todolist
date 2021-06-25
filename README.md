@@ -1,5 +1,5 @@
 
-Then you can delete these lines !
+
 <!-- ABOUT THE PROJECT -->
 This projetct is a spot application 
 
